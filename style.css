@@ -1,0 +1,60 @@
+body{
+    background-color:#262424
+}
+#paisagem{
+    display: grid;
+    grid-template-rows: 700px;
+    grid-template-columns: 100px 150px 150px 100px;
+}
+.margem{
+    background-color: green;
+}
+.rio{
+    background-color: rgb(44, 44, 148);
+}
+
+#rLado2 > #barco{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#rLado2 > #passageiro{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#passageiro{
+    display:flex;
+    align-items: flex-start;
+}
+.emoji{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#barco{
+    font-size: 60px;
+    
+}
+button{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#butA{
+    margin-bottom: 5px;
+    margin-left: 180px;
+    background-color: rgb(75, 200, 138);
+    color: rgb(22, 58, 40)
+}
+#butB{
+    background-color: rgb(61, 157, 246);
+    color: rgb(22, 42, 58);
+    margin-left: 8px;
+}
+
+#jogo{
+    margin-left: 600px;
+    margin-top: 100px;
+}
